@@ -22,7 +22,9 @@
         <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" /> 
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="FAQs" href="faqs.html" />
+    <link rel="prev" title="Installation" href="installation.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -44,11 +46,62 @@
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <!-- Local TOC -->
-              <div class="local-toc"><ul>
-<li><a class="reference internal" href="#">Main Panel</a></li>
+              <p class="caption" role="heading"><span class="caption-text">Get started: 🚀</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html#uninstall-the-old-version">Uninstall the old version</a></li>
 </ul>
-</div>
+<p class="caption" role="heading"><span class="caption-text">Interface and functions: 📱</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Main Panel</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#panel-types">Panel Types</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#panel-classic-style">Panel Classic Style</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#panel-checkmark-style">Panel Checkmark Style</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#apply-to-selected">Apply to Selected</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#save">Save</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#delete">Delete</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#preset-list">Preset List</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#open-preferences-button">Open Preferences Button</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#delete-loose">Delete Loose</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#vertex">Vertex</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#edges">Edges</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#merge-by-distance-remove-doubles">Merge By Distance (Remove Doubles)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#distance">Distance</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#subdivision-type">Subdivision Type</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#tris-to-quads">Tris to Quads</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#max-face-angle">Max Face Angle</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#max-shape-angle">Max Shape Angle</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#compare-uvs">Compare UVs</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#compare-vcols">Compare VCols</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#compare-seam">Compare Seam</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#compare-sharp">Compare Sharp</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#compare-materials">Compare Materials</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#triangulate-mode">Triangulate Mode</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">FAQs &amp; Troubleshooting: 💡</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="faqs.html">FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="troubleshooting.html">Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bugreport_info.html">Guidelines for bugreport</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Changelog: ⏲</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="updates_log.html">Updates Log</a></li>
+<li class="toctree-l1"><a class="reference internal" href="undocumented.html">Undocumented</a></li>
+</ul>
+
         </div>
       </div>
     </nav>
@@ -75,13 +128,193 @@
              
   <section id="main-panel">
 <h1>Main Panel<a class="headerlink" href="#main-panel" title="Link to this heading"></a></h1>
-<p>L’addon è mostrato nel pannello principale</p>
+<p>This is the main panel of Bmesh Clean, it looks like this once the addon is installed, if the panel is not present
+, make sure you have installed the addon correctly and activated the checkbox. Here you can find how to install
+the addon correctly: <a class="reference internal" href="installation.html#installation"><span class="std std-ref">Installation</span></a></p>
+<section id="panel-types">
+<span id="id1"></span><h2>Panel Types<a class="headerlink" href="#panel-types" title="Link to this heading"></a></h2>
+<p>From Bmesh Clean version 1.1.200 the panel can be set in 2 modes, classic or with checkmark, you can change the mode
+from the addon preferences, the default mode is classic, but you can change it to checkmark if you prefer <a class="reference internal" href="preferences.html#options"><span class="std std-ref">Options</span></a>.</p>
+<section id="panel-classic-style">
+<h3>Panel Classic Style<a class="headerlink" href="#panel-classic-style" title="Link to this heading"></a></h3>
+<a class="reference internal image-reference" href="_images/main_panel_classic_01.webp"><img alt="Main Panel Classic 01" class="align-center" src="_images/main_panel_classic_01.webp" style="width: 300px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</section>
+<section id="panel-checkmark-style">
+<h3>Panel Checkmark Style<a class="headerlink" href="#panel-checkmark-style" title="Link to this heading"></a></h3>
+<a class="reference internal image-reference" href="_images/main_panel_checkmark_01.webp"><img alt="Main Panel Checkmark 01" class="align-center" src="_images/main_panel_checkmark_01.webp" style="width: 300px;" /></a>
+</section>
+</section>
+<hr class="docutils" />
+<section id="apply-to-selected">
+<h2>Apply to Selected<a class="headerlink" href="#apply-to-selected" title="Link to this heading"></a></h2>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>1- To work correctly, the selected object must be a mesh object.
+2- This button only works if the properties described here below are activated, as in the example image.</p>
+</div>
+<p>Once you have selected the settings you want to apply, you can press this button to apply the chosen settings.</p>
+<p>You can select the objects to which you want to apply these settings, the button works on multiple selected objects without limits</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Selected objects that are not of type mesh will not be taken into consideration, so the settings will not be applied to them,
+as they are not mesh objects.</p>
+</div>
+<a class="reference internal image-reference" href="_images/apply_to_selected_button_01.webp"><img alt="Apply to Selected Button 01s" class="align-center" src="_images/apply_to_selected_button_01.webp" style="width: 300px;" /></a>
+</section>
+<hr class="docutils" />
+<section id="save">
+<h2>Save<a class="headerlink" href="#save" title="Link to this heading"></a></h2>
+<p>This button saves the current preset so that it can be reused in the future, it needs a name before it can be saved.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>From Bmesh Clean version 1.1.200 the saving of presets has been changed, it is done in json files and they are saved in the
+Blender addon folder: <cite>..Blender FoundationBlenderExtremeAddonsbmesh_clean_data</cite>, in this way the presets can be shared
+even between multiple versions of Blender, but the most important thing is that when you update BmeshClean, the presets are not lost as before.</p>
+</div>
+<a class="reference internal image-reference" href="_images/save_preset_with_name_01.webp"><img alt="Save Preset With Name 01" class="align-center" src="_images/save_preset_with_name_01.webp" style="width: 300px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>If a preset is saved with the same name, you will be asked if you want to overwrite the existing preset
+(Uppercase or lowercase letters do not make a difference)</p>
+<p>Names containing characters not allowed by the operating system cannot be saved, for example: <cite>‘[&#64;!#$%^&amp;*()&lt;&gt;?/|}{~:]’</cite>
+will be automatically replaced with an underscore <cite>_</cite></p>
+</section>
+<hr class="docutils" />
+<section id="delete">
+<h2>Delete<a class="headerlink" href="#delete" title="Link to this heading"></a></h2>
+<p>This button deletes the selected preset, provided it is a preset created by you and is selected in the preset list next to the Delete button.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>The Delete button will only remove user presets, not the default ones provided with the addon</p>
+</div>
+<a class="reference internal image-reference" href="_images/delete_your_preset_01.webp"><img alt="Delete Your Preset 01" class="align-center" src="_images/delete_your_preset_01.webp" style="width: 300px;" /></a>
+</section>
+<hr class="docutils" />
+<section id="preset-list">
+<h2>Preset List<a class="headerlink" href="#preset-list" title="Link to this heading"></a></h2>
+<p>By this selector, you can select the default presets or the ones saved by you, here all available presets will be displayed.</p>
+<p>In automatic, when you choose a preset from this list, the addon automatically configures itself with the settings of the chosen preset,
+So it will be enough to press the Apply to Selected button to apply the settings of the chosen preset to the selected objects.</p>
+<a class="reference internal image-reference" href="_images/preset_list_01.webp"><img alt="Preset List 01" class="align-center" src="_images/preset_list_01.webp" style="width: 300px;" /></a>
+</section>
+<hr class="docutils" />
+<section id="open-preferences-button">
+<h2>Open Preferences Button<a class="headerlink" href="#open-preferences-button" title="Link to this heading"></a></h2>
+<p>This button will take you directly to the Bmesh Clean preferences, in the Options TAB</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The button is present only from Bmesh Clean version 1.1.200</p>
+</div>
+<a class="reference internal image-reference" href="_images/open_preferences_button_01.webp"><img alt="Open Preferences Button 01" class="align-center" src="_images/open_preferences_button_01.webp" style="width: 800px;" /></a>
+</section>
+<hr class="docutils" />
+<section id="delete-loose">
+<h2>Delete Loose<a class="headerlink" href="#delete-loose" title="Link to this heading"></a></h2>
+<p>This options removes disconnected vertices / edges</p>
+<a class="reference internal image-reference" href="_images/delete_loose_01.webp"><img alt="Delete Loose 01" class="align-center" src="_images/delete_loose_01.webp" style="width: 300px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Here an example of disconnected vertices or Loose edge:</p>
+<a class="reference internal image-reference" href="_images/loose_vertex_edges_example_01.webp"><img alt="Loose Vertex Edges Example 01" class="align-center" src="_images/loose_vertex_edges_example_01.webp" style="width: 800px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<section id="vertex">
+<h3>Vertex<a class="headerlink" href="#vertex" title="Link to this heading"></a></h3>
+<p>If active, all vertices not connected to an Edge or a face will be deleted.</p>
+</section>
+<section id="edges">
+<h3>Edges<a class="headerlink" href="#edges" title="Link to this heading"></a></h3>
+<p>If active, all edges not connected to a face will be deleted.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="merge-by-distance-remove-doubles">
+<h2>Merge By Distance (Remove Doubles)<a class="headerlink" href="#merge-by-distance-remove-doubles" title="Link to this heading"></a></h2>
+<p>This option merges vertices that are close to each other, within the distance set in the field next to the checkbox.</p>
+<a class="reference internal image-reference" href="_images/merge_by_distance_01.webp"><img alt="Merge By Distance 01" class="align-center" src="_images/merge_by_distance_01.webp" style="width: 300px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<section id="distance">
+<h3>Distance<a class="headerlink" href="#distance" title="Link to this heading"></a></h3>
+<p>This value represents the maximum distance between the vertices to be considered duplicates and therefore joined, one of the 2 or
+more vertices present in this range will be deleted.</p>
+<p>The value is therefore the unit of measure of the Blender coordinate system, by default it is in meters, but it can be changed
+so a value of 0.001 represents 1 millimeter (If set in the decimal metric system)</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="subdivision-type">
+<h2>Subdivision Type<a class="headerlink" href="#subdivision-type" title="Link to this heading"></a></h2>
+<p>This option allows you to choose the type of subdivision to be applied to the selected objects.</p>
+<p><strong>This is an example of quad mesh:</strong></p>
+<a class="reference internal image-reference" href="_images/quad_mesh_example_01.webp"><img alt="Quad Mesh Example 01" class="align-center" src="_images/quad_mesh_example_01.webp" style="width: 500px;" /></a>
+<p><strong>This is an example of triangulated mesh:</strong></p>
+<a class="reference internal image-reference" href="_images/triangulate_mesh_example_01.webp"><img alt="Triangulate Mesh Example 01" class="align-center" src="_images/triangulate_mesh_example_01.webp" style="width: 500px;" /></a>
+<hr class="docutils" />
+<section id="tris-to-quads">
+<h3>Tris to Quads<a class="headerlink" href="#tris-to-quads" title="Link to this heading"></a></h3>
+<p>The tris to quad mode is a mode that allows you to convert the triangles into quads, this is an example of the Tris Mode Mesh:</p>
+<a class="reference internal image-reference" href="_images/tris_to_quad_mode_01.webp"><img alt="Tris to Quads Mode 01" class="align-center" src="_images/tris_to_quad_mode_01.webp" style="width: 400px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<section id="max-face-angle">
+<h4>Max Face Angle<a class="headerlink" href="#max-face-angle" title="Link to this heading"></a></h4>
+<p>This parameter, ranging from 0 to 180, determines the threshold for the functionality of this tool on neighboring triangles.
+When set to 0.0, it will exclusively connect adjacent triangles that create a precise rectangle
+(such as right-angled triangles sharing their hypotenuses). Increasing values become necessary for triangles featuring
+a shared edge that is diminutive compared to the other edges of the triangles.</p>
+</section>
+<section id="max-shape-angle">
+<h4>Max Shape Angle<a class="headerlink" href="#max-shape-angle" title="Link to this heading"></a></h4>
+<p>This parameter is similar to Max Face Angle, but instead of considering the angle between the planes of the faces, it considers
+the angle between the planes of the faces and the planes of the adjacent faces.</p>
+</section>
+<section id="compare-uvs">
+<h4>Compare UVs<a class="headerlink" href="#compare-uvs" title="Link to this heading"></a></h4>
+<p>When activated, this feature inhibits the merging of triangles unless they are also adjacent in the active UV map.</p>
+</section>
+<section id="compare-vcols">
+<h4>Compare VCols<a class="headerlink" href="#compare-vcols" title="Link to this heading"></a></h4>
+<p>Enabling this option prevents the merging of triangles lacking a corresponding Color Attribute color.</p>
+</section>
+<section id="compare-seam">
+<h4>Compare Seam<a class="headerlink" href="#compare-seam" title="Link to this heading"></a></h4>
+<p>Once activated, this function hinders the union of triangles sharing an edge marked as a seam.</p>
+</section>
+<section id="compare-sharp">
+<h4>Compare Sharp<a class="headerlink" href="#compare-sharp" title="Link to this heading"></a></h4>
+<p>When turned on, this function obstructs the merging of triangles sharing an edge labeled as sharp.</p>
+</section>
+<section id="compare-materials">
+<h4>Compare Materials<a class="headerlink" href="#compare-materials" title="Link to this heading"></a></h4>
+<p>Enabling this feature restricts the merging of triangles that don’t share the same assigned material.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</section>
+</section>
+</section>
+<section id="triangulate-mode">
+<h2>Triangulate Mode<a class="headerlink" href="#triangulate-mode" title="Link to this heading"></a></h2>
+<a class="reference internal image-reference" href="_images/triangulate_mode_01.webp"><img alt="Triangulate Mode 01" class="align-center" src="_images/triangulate_mode_01.webp" style="width: 500px;" /></a>
+</section>
 </section>
 
 
            </div>
           </div>
-          <footer>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="installation.html" class="btn btn-neutral float-left" title="Installation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="faqs.html" class="btn btn-neutral float-right" title="FAQs" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
 
   <hr/>
 
