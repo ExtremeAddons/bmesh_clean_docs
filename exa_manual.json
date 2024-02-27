@@ -8,13 +8,19 @@
 	"manual_urls": {
 		"DOCS": "https://bmesh-clean-docs.readthedocs.io/en/latest/",
 		"HOW_TO_REPORT_A_BUG": "https://bmesh-clean-docs.readthedocs.io/en/latest/bugreport_info.html",
-		"MAIN_PANEL": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#main-panel"
+		"MAIN_PANEL": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#main-panel",
+		"FAQS": "https://bmesh-clean-docs.readthedocs.io/en/latest/faqs.html",
+		"TROUBLESHOOTING": "https://bmesh-clean-docs.readthedocs.io/en/latest/troubleshooting.html"
 	},
 	"manual_key_maps": {
 		"operators": {
-			"single_ops_name_example": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#search-category",
+
+			"apply": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#search-category",
+
 			"open_web_browser": "GET_KEY",
+
 			"boolean_socket": "GET_KEY",
+
 			"ops_name_example_with_multiple_options": {
 				"options": {
 					"APPLY_SMOOTH_BY_ANGLE_MOD": "url 1",
