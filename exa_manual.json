@@ -6,6 +6,8 @@
 	"undocumented_button": "https://extreme-pbr-docs.readthedocs.io/en/latest/undocumented.html",
 	"doc_homepage": "https://extreme-pbr-docs.readthedocs.io/en/latest/",
 	"manual_urls": {
+		"DOCS": "https://bmesh-clean-docs.readthedocs.io/en/latest/",
+
 		"KEY_EXAMPLE": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#key-example",
 		"MAIN_PANEL": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#main-panel"
 	},
