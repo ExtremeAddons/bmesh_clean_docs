@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guidelines for bugreport &mdash; Bmesh Clean 1.1.2 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="_static/css/custom.css?v=9944c7c4" />
+
+  
+    <link rel="shortcut icon" href="_static/extreme_addons_red_32.ico"/>
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=6f037312"></script>
+        <script src="_static/doctools.js?v=888ff710"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Updates Log" href="updates_log.html" />
+    <link rel="prev" title="Troubleshooting" href="troubleshooting.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Bmesh Clean
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Get started: 🚀</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html#uninstall-the-old-version">Uninstall the old version</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Interface and functions: 📱</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="main_panel.html">Main Panel</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">FAQs &amp; Troubleshooting: 💡</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="faqs.html">FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="troubleshooting.html">Troubleshooting</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Guidelines for bugreport</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#make-sure-it-s-a-bug">Make sure it’s a bug</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-report-the-bug">How to report the bug</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#method-1">Method 1:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#method-2">Method 2:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#method-3">Method 3:</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Changelog: ⏲</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="updates_log.html">Updates Log</a></li>
+<li class="toctree-l1"><a class="reference internal" href="undocumented.html">Undocumented</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Bmesh Clean</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Guidelines for bugreport</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/bugreport_info.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="guidelines-for-bugreport">
+<span id="id1"></span><h1>Guidelines for bugreport<a class="headerlink" href="#guidelines-for-bugreport" title="Link to this heading"></a></h1>
+<p>I can guarantee the resolution of bugs only if the product has been purchased through our official channels
+(extreme-addons.com, blendermarket.com, gumroad.com)</p>
+<p>In addition, sometimes some versions of Blender are not official, have different APIs from the official version,
+unfortunately not always these versions respect the official APIs, and therefore it is not possible to guarantee the
+functionality of our addons at 100%, this cannot be considered a bug, but a compatibility problem with
+the unofficial versions of Blender in question.</p>
+<section id="make-sure-it-s-a-bug">
+<h2>Make sure it’s a bug<a class="headerlink" href="#make-sure-it-s-a-bug" title="Link to this heading"></a></h2>
+<p>First of all, make sure it’s really a bug, and not a configuration or usage problem.
+Also check this page: <a class="reference external" href="https://github.com/ExtremeAddons/bmesh_clean_docs/issues">https://github.com/ExtremeAddons/bmesh_clean_docs/issues</a> if the bug has not already been reported,
+you can start thinking of doing it really.</p>
+</section>
+<hr class="docutils" />
+<section id="how-to-report-the-bug">
+<h2>How to report the bug<a class="headerlink" href="#how-to-report-the-bug" title="Link to this heading"></a></h2>
+<section id="method-1">
+<h3>Method 1:<a class="headerlink" href="#method-1" title="Link to this heading"></a></h3>
+<p><strong>If you bought on BlenderMarket</strong> You can contact me through the messaging system of Blendermarket, this is really good
+because I can also see if you are really a user. So you will have the assistance worthy of a customer.</p>
+<p>Log into your account, then messages can be sent by clicking under the lifebelt icon in Extreme PBR page Ask a Question
+in this page: <a class="reference external" href="https://blendermarket.com/products/bmesh-clean-add-on">https://blendermarket.com/products/bmesh-clean-add-on</a></p>
+<a class="reference internal image-reference" href="_images/ask_a_question_01.png"><img alt="Ask a question 01" class="align-center" src="_images/ask_a_question_01.png" style="width: 200px;" /></a>
+<p><strong>If you bought on Gumroad</strong> You can contact me with mail: <strong>tredistudio&#64;hotmail.com</strong> or <strong>info&#64;extreme-addons.com</strong></p>
+</section>
+<hr class="docutils" />
+<section id="method-2">
+<h3>Method 2:<a class="headerlink" href="#method-2" title="Link to this heading"></a></h3>
+<p><strong>( Best Method Requires to be registered on Github )</strong></p>
+<p>If you have installed the Extreme PBR addon and are able to go to its preferences, you can use the “Report Bug” button
+it will precompile the bug report so that you only have to enter the description of the bug, and send it.</p>
+<a class="reference internal image-reference" href="_static/_images/troubleshooting/bugreport_github_01.png"><img alt="BugReport Github 01" class="align-center" src="_static/_images/troubleshooting/bugreport_github_01.png" style="width: 500px;" /></a>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If the button does not work, use this link and create a new Report: <a class="reference external" href="https://github.com/ExtremeAddons/bmesh_clean_docs/issues">https://github.com/ExtremeAddons/bmesh_clean_docs/issues</a>
+if you are not registered on github, you will be asked to register, once registered, you can send the bug report.</p>
+</div>
+</section>
+<hr class="docutils" />
+<section id="method-3">
+<h3>Method 3:<a class="headerlink" href="#method-3" title="Link to this heading"></a></h3>
+<p>Use the “System To Clipboard” button to copy the system information, and paste it into the bug report, now you can
+paste the system information and think of contacting me on BlenderMarket (If you are a Blendermarket user) <a class="reference external" href="https://blendermarket.com/products/bmesh-clean-add-on">https://blendermarket.com/products/bmesh-clean-add-on</a></p>
+<p>Or you can contact me with mail: <strong>tredistudio&#64;hotmail.com</strong> or <strong>info&#64;extreme-addons.com</strong></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For practical reasons, it is better to report bugs via github, this allows you to keep track of all the bugs
+reported by our users, this also allows us to make the solution of bugs public, so that everyone can benefit
+from the reports and check that the bug has been fixed.</p>
+</div>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="troubleshooting.html" class="btn btn-neutral float-left" title="Troubleshooting" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="updates_log.html" class="btn btn-neutral float-right" title="Updates Log" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, Andrea Donati.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -29,6 +29,14 @@ Welcome to Bmesh Clean's documentation! The page is under Construction
 
 .. toctree::
    :maxdepth: 1
+   :caption: FAQs & Troubleshooting: 💡
+
+   faqs
+   troubleshooting
+   bugreport_info
+
+.. toctree::
+   :maxdepth: 1
    :caption: Changelog: ⏲
 
    updates_log

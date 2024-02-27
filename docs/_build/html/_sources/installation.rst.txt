@@ -3,7 +3,8 @@ Installation
 
 .. tip::
         To check which version of Bmesh you are using:
-        - ``edit > preferences > addons`` and looking for the addon in the list by typing ``Extreme PBR`` in the search bar
+        - ``edit > preferences > addons`` and looking for the addon in the list by typing ``Bmesh Clean`` in the search bar
+
 
 
 Download the files
