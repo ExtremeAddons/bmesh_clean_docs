@@ -63,12 +63,12 @@
 				"loose_vertex": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#vertex",
 				"loose_edge": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#edges",
 				"loose_face": "",
-				"shade_smooth_menu": "",
-				"shade_smooth": "",
-				"auto_smooth": "",
-				"smooth_angle": "",
-				"ignore_sharpness": "",
-				"preset_save_name": ""
+				"shade_smooth_menu": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#shade-smooth",
+				"shade_smooth": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#shade-type-selector",
+				"auto_smooth": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#auto-smooth",
+				"smooth_angle": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#angle",
+				"ignore_sharpness": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#ignore-sharpness",
+				"preset_save_name": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#save"
 			}
 		}
 	}
