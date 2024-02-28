@@ -10,7 +10,8 @@
 		"HOW_TO_REPORT_A_BUG": "https://bmesh-clean-docs.readthedocs.io/en/latest/bugreport_info.html",
 		"MAIN_PANEL": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#main-panel",
 		"FAQS": "https://bmesh-clean-docs.readthedocs.io/en/latest/faqs.html",
-		"TROUBLESHOOTING": "https://bmesh-clean-docs.readthedocs.io/en/latest/troubleshooting.html"
+		"TROUBLESHOOTING": "https://bmesh-clean-docs.readthedocs.io/en/latest/troubleshooting.html",
+		"ADDON_PREFERENCES": "https://bmesh-clean-docs.readthedocs.io/en/latest/preferences.html#"
 	},
 	"manual_key_maps": {
 		"operators": {
@@ -18,8 +19,6 @@
 			"apply": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#apply-to-selected",
 			"add_preset": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#save",
 			"delete_preset": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#delete",
-
-
 
 			"open_web_browser": "GET_KEY",
 
@@ -69,6 +68,13 @@
 				"smooth_angle": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#angle",
 				"ignore_sharpness": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#ignore-sharpness",
 				"preset_save_name": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#save"
+			},
+
+			"BmeshCleanPreferences": {
+				"preferences_tabs": "https://bmesh-clean-docs.readthedocs.io/en/latest/preferences.html#preferences-tabs",
+				"check_update_frequency_control": "https://bmesh-clean-docs.readthedocs.io/en/latest/preferences.html#check-for-updates",
+				"interface_style": "https://bmesh-clean-docs.readthedocs.io/en/latest/preferences.html#interface-style"
+
 			}
 		}
 	}
