@@ -135,6 +135,10 @@ This button will take you directly to the Bmesh Clean preferences, in the Option
       :width: 800
       :alt: Open Preferences Button 01
 
+|
+
+The preferences are described in this section: :ref:`preferences`
+
 
 -------------------------------------------------------------------------------------------
 
@@ -444,10 +448,10 @@ This selector allows you to choose between Shade Smooth or Shade Flat (As in the
 
 |
 
-Auto Smooth
+Shade Smooth
 ^^^^^^^^^^^^^^^^^^^^^
 
-The auto smooth button, if activated, will smooth based on the angle set in the value below **Angle**
+The Shade smooth button, if activated, will smooth based on the angle set in the value below **Angle**
 
 Suppose the value is set to 30 Degrees, all angles between the faces greater than 30 degrees will be smoothed,
 while all angles less than 30 Degrees will remain Sharp.

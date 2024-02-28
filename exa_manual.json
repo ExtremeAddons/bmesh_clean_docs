@@ -15,51 +15,53 @@
 	"manual_key_maps": {
 		"operators": {
 
-			"apply": "https://extreme-pbr-docs.readthedocs.io/en/latest/main_panel.html#search-category",
+			"apply": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#apply-to-selected",
+			"add_preset": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#save",
+			"delete_preset": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#delete",
+
+
 
 			"open_web_browser": "GET_KEY",
 
 			"boolean_socket": "GET_KEY",
 
-			"ops_name_example_with_multiple_options": {
+			"open_preferences": {
 				"options": {
-					"APPLY_SMOOTH_BY_ANGLE_MOD": "url 1",
-					"SET_BY_DEFAULT": "url 2",
-					"REMOVE_DEFAULT": "url 3"
+					"OPTIONS": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#open-preferences-button"
 				}
 			}
 		},
 		"PointerProperty": {
 			"BmeshCleanSceneProps": {
 				"preset_tool": "",
-				"preset_list": "",
-				"delete_double": "",
-				"double_value": "",
+				"preset_list": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#preset-list",
+				"delete_double": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#merge-by-distance-remove-doubles",
+				"double_value": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#distance",
 				"use_unselected": "",
-				"make_normal": "",
-				"limited_dissolve": "",
-				"t_t_t_q": "",
-				"tris_quad_menu": "",
-				"quad_method": "",
-				"quad_polymet": "",
-				"max_face_angle": "",
-				"max_shape_angle": "",
-				"compare_uv": "",
-				"compare_vcols": "",
-				"compare_seam": "",
-				"compare_sharp": "",
-				"compare_materials": "",
-				"in_out_menu": "",
-				"dissolve_value": "",
-				"all_boundaries": "",
-				"regular_dissolve": "",
-				"material_dissolve": "",
-				"seam_dissolve": "",
-				"sharp_dissolve": "",
-				"uvs_dissolve": "",
-				"delete_loose": "",
-				"loose_vertex": "",
-				"loose_edge": "",
+				"make_normal": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#make-normals-consistent",
+				"limited_dissolve": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#limited-dissolve",
+				"t_t_t_q": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#subdivision-type",
+				"tris_quad_menu": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#tris-to-quads",
+				"quad_method": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#quad-method",
+				"quad_polymet": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#polygon-method",
+				"max_face_angle": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#max-face-angle",
+				"max_shape_angle": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#max-shape-angle",
+				"compare_uv": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#compare-uvs",
+				"compare_vcols": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#compare-vcols",
+				"compare_seam": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#compare-vcols",
+				"compare_sharp": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#compare-sharp",
+				"compare_materials": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#compare-materials",
+				"in_out_menu": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#make-normals-consistent",
+				"dissolve_value": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#max-value",
+				"all_boundaries": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#all-boundaries",
+				"regular_dissolve": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#regular",
+				"material_dissolve": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#material",
+				"seam_dissolve": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#seam",
+				"sharp_dissolve": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#sharp",
+				"uvs_dissolve": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#uvs",
+				"delete_loose": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#delete-loose",
+				"loose_vertex": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#vertex",
+				"loose_edge": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#edges",
 				"loose_face": "",
 				"shade_smooth_menu": "",
 				"shade_smooth": "",
