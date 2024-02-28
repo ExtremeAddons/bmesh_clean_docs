@@ -416,7 +416,7 @@ Orient Face
 -------------------------------------------------------------------------------------------
 
 
-Auto Smooth
+Shade Smooth
 ------------------------
 
 .. image:: _static/_images/main_panel/auto_smooth_01.webp
@@ -448,7 +448,7 @@ This selector allows you to choose between Shade Smooth or Shade Flat (As in the
 
 |
 
-Shade Smooth
+Auto Smooth
 ^^^^^^^^^^^^^^^^^^^^^
 
 The Shade smooth button, if activated, will smooth based on the angle set in the value below **Angle**
