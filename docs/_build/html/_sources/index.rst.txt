@@ -25,7 +25,7 @@ Welcome to Bmesh Clean's documentation! The page is under Construction
    :caption: Interface and functions: 📱
 
    main_panel
-
+   preferences
 
 .. toctree::
    :maxdepth: 1

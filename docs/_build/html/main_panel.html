@@ -84,9 +84,44 @@
 <li class="toctree-l4"><a class="reference internal" href="#compare-materials">Compare Materials</a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="#triangulate-mode">Triangulate Mode</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#quad-method">Quad Method</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#beauty">Beauty</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#fixed">Fixed</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#fixed-alternate">Fixed alternate</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#shortest-diagonal">Shortest diagonal</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#polygon-method">Polygon Method</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id2">Beauty</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ear-clip">Ear Clip</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#triangulate-mode">Triangulate Mode</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#limited-dissolve">Limited Dissolve</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#max-value">Max Value</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#all-boundaries">All Boundaries</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#regular">Regular</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#material">Material</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#seam">Seam</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#sharp">Sharp</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#uvs">UVs</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#make-normals-consistent">Make Normals Consistent</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#orient-face">Orient Face</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#auto-smooth">Auto Smooth</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#shade-type-selector">Shade Type Selector</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id3">Auto Smooth</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#angle">Angle</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ignore-sharpness">Ignore Sharpness</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -301,10 +336,147 @@ the angle between the planes of the faces and the planes of the adjacent faces.<
 </div>
 </section>
 </section>
-</section>
 <section id="triangulate-mode">
-<h2>Triangulate Mode<a class="headerlink" href="#triangulate-mode" title="Link to this heading"></a></h2>
+<h3>Triangulate Mode<a class="headerlink" href="#triangulate-mode" title="Link to this heading"></a></h3>
+<p>The triangulate mode is a mode that allows you to convert the quads into triangles.</p>
 <a class="reference internal image-reference" href="_images/triangulate_mode_01.webp"><img alt="Triangulate Mode 01" class="align-center" src="_images/triangulate_mode_01.webp" style="width: 500px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<section id="quad-method">
+<h4>Quad Method<a class="headerlink" href="#quad-method" title="Link to this heading"></a></h4>
+<p>This option allows you to choose the method to use to split the quads into triangles, bello the available methods:</p>
+</section>
+<section id="beauty">
+<h4>Beauty<a class="headerlink" href="#beauty" title="Link to this heading"></a></h4>
+<p>Split the quads in nice triangles, slower method</p>
+</section>
+<section id="fixed">
+<h4>Fixed<a class="headerlink" href="#fixed" title="Link to this heading"></a></h4>
+<p>Split the quads on the first and third vertices</p>
+</section>
+<section id="fixed-alternate">
+<h4>Fixed alternate<a class="headerlink" href="#fixed-alternate" title="Link to this heading"></a></h4>
+<p>Split the quads on the 2nd and 4th vertices</p>
+</section>
+<section id="shortest-diagonal">
+<h4>Shortest diagonal<a class="headerlink" href="#shortest-diagonal" title="Link to this heading"></a></h4>
+<p>Split the quads based on the distance between the vertices</p>
+</section>
+<section id="polygon-method">
+<h4>Polygon Method<a class="headerlink" href="#polygon-method" title="Link to this heading"></a></h4>
+<p>The quad Method option allows you to choose the method to use to split the quads into triangles, bello the available methods:</p>
+</section>
+<section id="id2">
+<h4>Beauty<a class="headerlink" href="#id2" title="Link to this heading"></a></h4>
+<p>Arrange the new triangles evenly</p>
+</section>
+<section id="ear-clip">
+<h4>Ear Clip<a class="headerlink" href="#ear-clip" title="Link to this heading"></a></h4>
+<p>Split the polygons with an ear clipping algorithm</p>
+</section>
+</section>
+</section>
+<hr class="docutils" />
+<section id="limited-dissolve">
+<h2>Limited Dissolve<a class="headerlink" href="#limited-dissolve" title="Link to this heading"></a></h2>
+<p>Dissolve edges and vertices, constrained by the angle of the encompassing geometry.</p>
+<a class="reference internal image-reference" href="_images/limited_dissolve_01.webp"><img alt="Limited Dissolve 01" class="align-center" src="_images/limited_dissolve_01.webp" style="width: 400px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p><strong>Here an example of limited dissolve of a plane:</strong></p>
+<a class="reference internal image-reference" href="_images/limited_dissolve_example_01.webp"><img alt="Limited Dissolve Example 01" class="align-center" src="_images/limited_dissolve_example_01.webp" style="width: 500px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<section id="max-value">
+<h3>Max Value<a class="headerlink" href="#max-value" title="Link to this heading"></a></h3>
+<p>This value represents the maximum angle that vertices and edges must have in order not to be dissolved.</p>
+<p>All edges and vertices with an angle greater than this value will be dissolved.</p>
+<section id="all-boundaries">
+<h4>All Boundaries<a class="headerlink" href="#all-boundaries" title="Link to this heading"></a></h4>
+<p>Dissolve all vertices inbetween face boundaries</p>
+</section>
+<section id="regular">
+<h4>Regular<a class="headerlink" href="#regular" title="Link to this heading"></a></h4>
+<p>Delimit by face directions</p>
+</section>
+<section id="material">
+<h4>Material<a class="headerlink" href="#material" title="Link to this heading"></a></h4>
+<p>Delimit by face material</p>
+</section>
+<section id="seam">
+<h4>Seam<a class="headerlink" href="#seam" title="Link to this heading"></a></h4>
+<p>Delimit by edge seams (Edge Mark as Seam)</p>
+</section>
+<section id="sharp">
+<h4>Sharp<a class="headerlink" href="#sharp" title="Link to this heading"></a></h4>
+<p>Delimit by sharp edges (Edge Mark as Sharp)</p>
+</section>
+<section id="uvs">
+<h4>UVs<a class="headerlink" href="#uvs" title="Link to this heading"></a></h4>
+<p>Delimit by UV coordinates</p>
+</section>
+</section>
+</section>
+<hr class="docutils" />
+<section id="make-normals-consistent">
+<h2>Make Normals Consistent<a class="headerlink" href="#make-normals-consistent" title="Link to this heading"></a></h2>
+<p>This option, if activated, allows you to recalculate the direction of the faces of the model automatically, you can indicate
+whether to turn them inwards or outwards.</p>
+<a class="reference internal image-reference" href="_images/make_normals_consistent_01.webp"><img alt="Make Normals Consistent 01" class="align-center" src="_images/make_normals_consistent_01.webp" style="width: 500px;" /></a>
+<section id="orient-face">
+<h3>Orient Face<a class="headerlink" href="#orient-face" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p><strong>Inside</strong> : The normals of the faces will be oriented inwards</p></li>
+<li><p><strong>Outside</strong> : The normals of the faces will be oriented outwards</p></li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="auto-smooth">
+<h2>Auto Smooth<a class="headerlink" href="#auto-smooth" title="Link to this heading"></a></h2>
+<a class="reference internal image-reference" href="_images/auto_smooth_01.webp"><img alt="Auto Smooth 01" class="align-center" src="_images/auto_smooth_01.webp" style="width: 500px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p><strong>In this image an example on the right of Shade Flat (On the left) and Shade Smooth (On the right):</strong></p>
+<a class="reference internal image-reference" href="_images/shade_smooth_flat_example.webp"><img alt="Shade Smooth Flat Example" class="align-center" src="_images/shade_smooth_flat_example.webp" style="width: 800px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<section id="shade-type-selector">
+<h3>Shade Type Selector<a class="headerlink" href="#shade-type-selector" title="Link to this heading"></a></h3>
+<p>This selector allows you to choose between Shade Smooth or Shade Flat (As in the example above)</p>
+<a class="reference internal image-reference" href="_images/shade_smooth_selector.webp"><img alt="Shade Smooth Selector" class="align-center" src="_images/shade_smooth_selector.webp" style="width: 400px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<section id="id3">
+<h4>Auto Smooth<a class="headerlink" href="#id3" title="Link to this heading"></a></h4>
+<p>The auto smooth button, if activated, will smooth based on the angle set in the value below <strong>Angle</strong></p>
+<p>Suppose the value is set to 30 Degrees, all angles between the faces greater than 30 degrees will be smoothed,
+while all angles less than 30 Degrees will remain Sharp.</p>
+<a class="reference internal image-reference" href="_images/auto_smooth.webp"><img alt="Auto Smooth" class="align-center" src="_images/auto_smooth.webp" style="width: 400px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</section>
+<section id="angle">
+<h4>Angle<a class="headerlink" href="#angle" title="Link to this heading"></a></h4>
+<p>This value represents the angle in degrees, all angles greater than this value will be smoothed, while all angles less than this value will remain sharp.</p>
+</section>
+<section id="ignore-sharpness">
+<h4>Ignore Sharpness<a class="headerlink" href="#ignore-sharpness" title="Link to this heading"></a></h4>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This option is available from Bmesh Clean version 1.1.200 and on Blender 4.1 or higher</p>
+</div>
+<p>If activated, the marked edges as sharp will be ignored, and the smoothing will be done based only on the angle set in
+the value above <strong>Angle</strong></p>
+</section>
+</section>
 </section>
 </section>
 

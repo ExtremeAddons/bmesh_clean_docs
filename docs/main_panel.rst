@@ -272,12 +272,208 @@ Enabling this feature restricts the merging of triangles that don't share the sa
 |
 
 Triangulate Mode
--------------------
+*********************
+
+The triangulate mode is a mode that allows you to convert the quads into triangles.
 
 .. image:: _static/_images/main_panel/triangulate_mode_01.webp
       :align: center
       :width: 500
       :alt: Triangulate Mode 01
+
+|
+
+Quad Method
+^^^^^^^^^^^^^^^^^^^^^
+
+This option allows you to choose the method to use to split the quads into triangles, bello the available methods:
+
+Beauty
+^^^^^^^^^^^^^^^^^^^^^
+
+Split the quads in nice triangles, slower method
+
+Fixed
+^^^^^^^^^^^^^^^^^^^^^
+
+Split the quads on the first and third vertices
+
+Fixed alternate
+^^^^^^^^^^^^^^^^^^^^^
+
+Split the quads on the 2nd and 4th vertices
+
+Shortest diagonal
+^^^^^^^^^^^^^^^^^^^^^
+
+Split the quads based on the distance between the vertices
+
+
+Polygon Method
+^^^^^^^^^^^^^^^^^^^^^
+
+The quad Method option allows you to choose the method to use to split the quads into triangles, bello the available methods:
+
+Beauty
+^^^^^^^^^^^^^^^^^^^^^
+
+Arrange the new triangles evenly
+
+Ear Clip
+^^^^^^^^^^^^^^^^^^^^^
+
+Split the polygons with an ear clipping algorithm
+
+
+-------------------------------------------------------------------------------------------
+
+
+Limited Dissolve
+------------------------
+
+Dissolve edges and vertices, constrained by the angle of the encompassing geometry.
+
+.. image:: _static/_images/main_panel/limited_dissolve_01.webp
+      :align: center
+      :width: 400
+      :alt: Limited Dissolve 01
+
+|
+
+**Here an example of limited dissolve of a plane:**
+
+.. image:: _static/_images/main_panel/limited_dissolve_example_01.webp
+      :align: center
+      :width: 500
+      :alt: Limited Dissolve Example 01
+
+|
+
+
+Max Value
+*************
+
+This value represents the maximum angle that vertices and edges must have in order not to be dissolved.
+
+All edges and vertices with an angle greater than this value will be dissolved.
+
+
+All Boundaries
+^^^^^^^^^^^^^^^^^^^^^
+
+Dissolve all vertices inbetween face boundaries
+
+Regular
+^^^^^^^^^
+
+Delimit by face directions
+
+Material
+^^^^^^^^^^^
+
+Delimit by face material
+
+Seam
+^^^^^^^^
+
+Delimit by edge seams (Edge Mark as Seam)
+
+Sharp
+^^^^^^^^
+
+Delimit by sharp edges (Edge Mark as Sharp)
+
+UVs
+^^^^^^^
+
+Delimit by UV coordinates
+
+-------------------------------------------------------------------------------------------
+
+Make Normals Consistent
+------------------------
+
+This option, if activated, allows you to recalculate the direction of the faces of the model automatically, you can indicate
+whether to turn them inwards or outwards.
+
+.. image:: _static/_images/main_panel/make_normals_consistent_01.webp
+      :align: center
+      :width: 500
+      :alt: Make Normals Consistent 01
+
+
+Orient Face
+*************
+
+- **Inside** : The normals of the faces will be oriented inwards
+- **Outside** : The normals of the faces will be oriented outwards
+
+
+-------------------------------------------------------------------------------------------
+
+
+Auto Smooth
+------------------------
+
+.. image:: _static/_images/main_panel/auto_smooth_01.webp
+      :align: center
+      :width: 500
+      :alt: Auto Smooth 01
+
+|
+
+**In this image an example on the right of Shade Flat (On the left) and Shade Smooth (On the right):**
+
+.. image:: _static/_images/main_panel/shade_smooth_flat_example.webp
+      :align: center
+      :width: 800
+      :alt: Shade Smooth Flat Example
+
+|
+
+Shade Type Selector
+************************
+
+This selector allows you to choose between Shade Smooth or Shade Flat (As in the example above)
+
+.. image:: _static/_images/main_panel/shade_smooth_selector.webp
+      :align: center
+      :width: 400
+      :alt: Shade Smooth Selector
+
+
+|
+
+Auto Smooth
+^^^^^^^^^^^^^^^^^^^^^
+
+The auto smooth button, if activated, will smooth based on the angle set in the value below **Angle**
+
+Suppose the value is set to 30 Degrees, all angles between the faces greater than 30 degrees will be smoothed,
+while all angles less than 30 Degrees will remain Sharp.
+
+.. image:: _static/_images/main_panel/auto_smooth.webp
+      :align: center
+      :width: 400
+      :alt: Auto Smooth
+
+|
+
+Angle
+^^^^^^^^^^^^^^^^^^^^^
+
+This value represents the angle in degrees, all angles greater than this value will be smoothed, while all angles less than this value will remain sharp.
+
+
+Ignore Sharpness
+^^^^^^^^^^^^^^^^^^^^^
+
+.. note::
+        This option is available from Bmesh Clean version 1.1.200 and on Blender 4.1 or higher
+
+If activated, the marked edges as sharp will be ignored, and the smoothing will be done based only on the angle set in
+the value above **Angle**
+
 
 
 

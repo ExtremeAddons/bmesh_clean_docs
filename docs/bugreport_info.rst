@@ -37,7 +37,7 @@ in this page: https://blendermarket.com/products/bmesh-clean-add-on
     :width: 200
     :alt: Ask a question 01
 
-
+|
 
 **If you bought on Gumroad** You can contact me with mail: **tredistudio@hotmail.com** or **info@extreme-addons.com**
 
@@ -50,11 +50,12 @@ Method 2:
 If you have installed the Extreme PBR addon and are able to go to its preferences, you can use the "Report Bug" button
 it will precompile the bug report so that you only have to enter the description of the bug, and send it.
 
-.. image:: _static/_images/troubleshooting/bugreport_github_01.png
+.. image:: _static/_images/troubleshooting/bugreport_github_01.webp
     :align: center
     :width: 500
     :alt: BugReport Github 01
 
+|
 
 .. Note::
     If the button does not work, use this link and create a new Report: https://github.com/ExtremeAddons/bmesh_clean_docs/issues
