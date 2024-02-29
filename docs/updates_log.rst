@@ -6,7 +6,7 @@ Updates Log
 1.1.200
 -------
 
-**Release date: xx-02-2024 (D/M/Y)**
+**Release date: 29-02-2024 (D/M/Y)**
 
 - **Documentation and Updates**
 
