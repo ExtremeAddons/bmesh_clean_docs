@@ -8,10 +8,6 @@ Updates Log
 
 **Release date: 29-02-2024 (D/M/Y)**
 
-- **Documentation and Updates**
-
-    From this version, the addon has an official documentation and the update log will be documented in this page
-
 - **Compatibility**
 
     This version has been made compatible with Blender 4.1, as some APIs have been modified in it, the addon is retro-compatible up to Blender 2.8
@@ -31,4 +27,8 @@ Updates Log
 - **Interface Change Option**
 
     The addon now has an option to change the interface, the user can choose between 2 tipes of interface, the Classic and the Checkmark version
+
+- **Support for Blender 2.79 is over**
+
+    The addon will no longer be compatible with Blender 2.79
 
