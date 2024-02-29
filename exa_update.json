@@ -31,6 +31,18 @@
 				"3": {
 					"title": "Online documentation Buttons",
 					"description": "Bmesh Clean now has an online documentation system, with a button for each operator that will take you directly to the online documentation (Right click with mouse on the operator or properties)"
+				},
+				"4": {
+					"title": "Update Message System",
+					"description": "The addon periodically checks for updates, and if there are any, it shows a message, the option can be disabled"
+				},
+				"5": {
+					"title": "Unofficial Version Alert",
+					"description": "If the version of the Blender is in Alpha or Beta, the addon will show a message alerting, a button will be available to disable the alert"
+				},
+				"6": {
+					"title": "Interface Change Option",
+					"description": "The addon now has an option to change the interface, the user can choose between 2 tipes of interface, the Classic and the Checkmark version"
 				}
 			}
 		}

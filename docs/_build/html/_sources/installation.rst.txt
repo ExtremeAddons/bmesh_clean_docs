@@ -73,7 +73,7 @@ Install the new version
 2. Go to Preferences
 3. Go to Add-ons
 4. Click on Install
-5. Select the zip file you downloaded (``bmesh_clean_v1_1_200.zip`` name may change with number of version)
+5. Select the zip file you downloaded ``bmesh_clean_v1_1_200.zip`` name may change with number of version (Make sure it is a .zip file!)
 6. Click on Install Add-on
 7. Save the preferences (If the save preferences is not automatic)
 

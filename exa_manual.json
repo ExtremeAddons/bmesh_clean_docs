@@ -21,7 +21,6 @@
 			"delete_preset": "https://bmesh-clean-docs.readthedocs.io/en/latest/main_panel.html#delete",
 
 			"open_web_browser": "GET_KEY",
-
 			"boolean_socket": "GET_KEY",
 
 			"open_preferences": {
