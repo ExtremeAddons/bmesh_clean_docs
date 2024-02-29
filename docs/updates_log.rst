@@ -28,7 +28,7 @@ Updates Log
 
     The addon now has an option to change the interface, the user can choose between 2 tipes of interface, the Classic and the Checkmark version
 
-- **Support for Blender 2.79 is over**
+- **Ended support for Blender 2.79**
 
     The addon will no longer be compatible with Blender 2.79
 

@@ -41,7 +41,7 @@
 					"description": "The addon now has an option to change the interface, the user can choose between 2 tipes of interface, the Classic and the Checkmark version"
 				},
 				"6": {
-					"title": "Support for Blender 2.79 is over",
+					"title": "Ended support for Blender 2.79",
 					"description": "The addon will no longer be compatible with Blender 2.79"
 				}
 			}
