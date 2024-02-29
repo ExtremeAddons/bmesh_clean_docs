@@ -7,7 +7,6 @@ There are two ways to access the preferences of Bmesh Clean
 
 1. From the Blender menu ``Edit > Preferences > Add-ons`` search for Bmesh Clean in the search field.
 
-go_to_addon_preferences_standard
 
 .. image:: _static/_images/preferences/go_to_addon_preferences_standard.webp
       :align: center
