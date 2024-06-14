@@ -3,6 +3,19 @@
 Updates Log
 ===========
 
+1.1.201
+-------
+
+**Release date: 14-06-2024 (D/M/Y)**
+
+- **Compatibility with Blender 4.2**
+
+    The new extensions/addons system uses a new blender_manifest.toml, which replaces the old bl_info, an update has been made to make Bmesh Clean compatible with Blender 4.2 while maintaining retro-compatibility with previous Blender versions
+
+- **Save Preset custom addon path problems fixed**
+
+    There was a problem, if the addon was not installed in the classic Blender addons path, in fact the save system was based only on that specific path, now instead, the addon will try to find the path to the ExtremeAddons folder, if it does not find it will attempt to create it at the path where the addon versions of Blender are contained 'Blender Foundation/Blender/ExtremeAddons', if this section does not exist, then the addon will create this folder in the custom addons path: 'addons_folder/ExtremeAddons'
+
 1.1.200
 -------
 

@@ -62,7 +62,8 @@
 <p class="caption" role="heading"><span class="caption-text">Changelog: ⏲</span></p>
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Updates Log</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#id2">1.1.200</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id2">1.1.201</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">1.1.200</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="undocumented.html">Undocumented</a></li>
@@ -95,7 +96,23 @@
   <section id="updates-log">
 <span id="id1"></span><h1>Updates Log<a class="headerlink" href="#updates-log" title="Permalink to this heading"></a></h1>
 <section id="id2">
-<h2>1.1.200<a class="headerlink" href="#id2" title="Permalink to this heading"></a></h2>
+<h2>1.1.201<a class="headerlink" href="#id2" title="Permalink to this heading"></a></h2>
+<p><strong>Release date: 14-06-2024 (D/M/Y)</strong></p>
+<ul>
+<li><p><strong>Compatibility with Blender 4.2</strong></p>
+<blockquote>
+<div><p>The new extensions/addons system uses a new blender_manifest.toml, which replaces the old bl_info, an update has been made to make Bmesh Clean compatible with Blender 4.2 while maintaining retro-compatibility with previous Blender versions</p>
+</div></blockquote>
+</li>
+<li><p><strong>Save Preset custom addon path problems fixed</strong></p>
+<blockquote>
+<div><p>There was a problem, if the addon was not installed in the classic Blender addons path, in fact the save system was based only on that specific path, now instead, the addon will try to find the path to the ExtremeAddons folder, if it does not find it will attempt to create it at the path where the addon versions of Blender are contained ‘Blender Foundation/Blender/ExtremeAddons’, if this section does not exist, then the addon will create this folder in the custom addons path: ‘addons_folder/ExtremeAddons’</p>
+</div></blockquote>
+</li>
+</ul>
+</section>
+<section id="id3">
+<h2>1.1.200<a class="headerlink" href="#id3" title="Permalink to this heading"></a></h2>
 <p><strong>Release date: 29-02-2024 (D/M/Y)</strong></p>
 <ul>
 <li><p><strong>Compatibility</strong></p>
