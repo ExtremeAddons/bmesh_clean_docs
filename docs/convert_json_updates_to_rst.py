@@ -3,6 +3,10 @@ import json
 import os
 
 
+def generate_material_dict():
+    j
+
+
 def get_json_data(path):
     # Carica il json in una variabile data, se non esiste il path restituisce None
     broken_json = False
