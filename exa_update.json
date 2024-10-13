@@ -10,6 +10,22 @@
 		"description": ""
 	},
 	"updates": {
+		"1.1.202": {
+			"date": "13-10-2024",
+			"name": "Bmesh Clean",
+			"edition": "",
+			"url": false,
+			"urgency": false,
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "Bug Fix",
+					"description": "When there was no object selected, an error occurred when pressing the 'Apply to selected' button, an additional condition has been added to prevent this error from happening again."
+				}
+			}
+		},
 		"1.1.201": {
 			"date": "14-06-2024",
 			"name": "Bmesh Clean",

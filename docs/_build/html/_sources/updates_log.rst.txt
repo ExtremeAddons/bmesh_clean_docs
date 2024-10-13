@@ -3,6 +3,15 @@
 Updates Log
 ===========
 
+1.1.202
+-------
+
+**Release date: 13-10-2024 (D/M/Y)**
+
+- **Bug Fix**
+
+    When there was no object selected, an error occurred when pressing the 'Apply to selected' button, an additional condition has been added to prevent this error from happening again.
+
 1.1.201
 -------
 
