@@ -3,6 +3,15 @@
 Updates Log
 ===========
 
+1.1.203
+-------
+
+**Release date: 15-11-2024 (D/M/Y)**
+
+- **Blender 4.3 Support - No Module Named toml**
+
+    The Python module 'toml' is no longer included in Blender 4.3, it has been replaced by the tomllib module, this module is used to read the blender_manifest.toml file.
+
 1.1.202
 -------
 

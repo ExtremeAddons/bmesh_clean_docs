@@ -9,7 +9,7 @@
 project = 'Bmesh Clean'
 copyright = '2024, Andrea Donati'
 author = 'Andrea Donati'
-release = '1.1.2'
+release = '1.1.203'
 
 
 import os, sys

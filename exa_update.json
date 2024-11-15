@@ -10,6 +10,22 @@
 		"description": ""
 	},
 	"updates": {
+		"1.1.203": {
+			"date": "15-11-2024",
+			"name": "Bmesh Clean",
+			"edition": "",
+			"url": false,
+			"urgency": false,
+			"lock_operators": [
+				""
+			],
+			"descriptions": {
+				"1": {
+					"title": "Blender 4.3 Support - No Module Named toml",
+					"description": "The Python module 'toml' is no longer included in Blender 4.3, it has been replaced by the tomllib module, this module is used to read the blender_manifest.toml file."
+				}
+			}
+		},
 		"1.1.202": {
 			"date": "13-10-2024",
 			"name": "Bmesh Clean",
